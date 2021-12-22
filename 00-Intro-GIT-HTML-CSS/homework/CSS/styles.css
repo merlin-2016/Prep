@@ -14,7 +14,7 @@ img {
     height: 700px;
     background-color: chartreuse;
     padding: 50px;
-    border: darkorange 5px dotted;
+    border: darkorange 1px dotted;
 }
 
 #spanId {
