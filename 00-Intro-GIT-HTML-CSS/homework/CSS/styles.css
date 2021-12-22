@@ -8,15 +8,25 @@ background-color: red;}
 img {
     width: 400px;
 }
+
+#thirbDiv {
+    width: 500px;
+    height: 700px;
+    background-color: chartreuse;
+    padding: 50px;
+    border: darkorange 5px dotted;
+}
+
+#spanId {
+font-size: 25px;
+padding: 50px;
+}
+
+
 li {font-size: 20
     ;}
     h3 {color:black; 
         background-color: yellow;}
-    .divClass {
-
-    }
-    li {
-        font-size: ;
-    }
+ 
     
 </style>
