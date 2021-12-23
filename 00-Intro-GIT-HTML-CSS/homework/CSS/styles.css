@@ -10,9 +10,9 @@ img {
 #thirDiv {
     width: 500px;
     height: 400px;
-    background-color:rgb(143, 188, 143);
+    background-color:orange;
     padding: 50px;
-    border-color: blue 3px dotted;
+    border: black 3px dotted;
 }
 
 #spanID {
