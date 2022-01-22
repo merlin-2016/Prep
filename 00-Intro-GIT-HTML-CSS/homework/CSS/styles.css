@@ -13,7 +13,7 @@ img {
     height: 400px;
     background-color:orange;
     padding: 50px;
-    border: rgb(87, 32, 32) 5 px dotted;
+    border: black 5 px dotted;
 }
 
 #spanID {
@@ -26,4 +26,7 @@ body {
     background-attachment: fixed;
   }
 
-  </style>
+
+
+
+</style>
