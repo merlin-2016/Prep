@@ -2,15 +2,19 @@
 
 .divClass {
     text-align: center;
-
+    
 }
 
 h1 {
     color: crimson;
+    text-align: center;
 }
 
 img {
     width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #thirDiv {
