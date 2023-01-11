@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-return x - y
+return x - y;
 
 }
 
@@ -50,7 +50,7 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
 var str1= daverano
 var str2= ceverano
-if (str1 === str2) {
+if (str1.length === str2.length) {
   return true;
   } else {
     return false
