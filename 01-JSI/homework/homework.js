@@ -81,7 +81,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // Ojo: No es raiz cuadrada!
   // Tu código:
-
+  return num ** 2
 }
 
 function elevar(num, exponent) {
