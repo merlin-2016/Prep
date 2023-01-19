@@ -104,18 +104,19 @@ function esPositivo(numero) {
     }      
  }
 
-function combinarNombres(nombre, apellido) {
+function combinarNombres(name, lastname) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-return nombre + ' ' + apellido;
+return name + ' ' + lastname;
 }
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   // Tu código:
-
-}
+  var a = lado;
+       return lado * 4;
+  }
 
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
