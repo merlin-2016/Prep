@@ -122,7 +122,8 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   // Tu código:
-  return euro * 1.2;
+return euro * 1.20;
+
 }
 
 
@@ -131,7 +132,12 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Tu código:
-
+  if (letra.length !== 1) {
+    return 'Dato incorrecto';
+  }
+  if (letra === 'a', 'e', 'i', 'o', 'u') {
+    return 'Es vocal';
+  }
 }
 
 function obtenerMayor(x, y) {
@@ -139,8 +145,15 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-
+  if (x > y) {
+    return x;
+  } else {
+    return y
+  }
+ 
 }
+
+
 
 /*
 Para implementar la siguiente función vamos a utilizar una estructura de control de flujo nueva, 
