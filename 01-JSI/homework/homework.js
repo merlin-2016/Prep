@@ -200,7 +200,13 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-
+  var a = 10
+  var b = 5
+  if (numero === a ||  numero === b) {
+    return true;
+  } else {
+    return false;
+  } 
 }
 
 function estaEnRango(numero) {
