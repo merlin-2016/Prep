@@ -228,7 +228,10 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   // Tu código:
-
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+  }
 }
 
 function doWhile(numero) {
