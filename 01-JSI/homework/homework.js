@@ -228,8 +228,13 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   // Tu código:
-  for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+    if (numero === 0 || numero === 1) {
+      return false;
+    }
+  for (let i = 2; raiz = Math.sqrt(numero); i <= i++) {
+    if (numero % i === 0) return false; {
+      return numero > 1;
+    }
     
   }
 }
