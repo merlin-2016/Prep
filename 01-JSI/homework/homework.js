@@ -231,7 +231,8 @@ function esPrimo(numero) {
   if (numero === 0 || numero === 1) {
     return false;
     }
-  for (let i = 2; raiz = Math.sqrt(numero); i <= i++) {
+    var i;
+  for (var i = 2; i < numero; i++); {
     if (numero % i === 0) 
     return false ; 
     }
