@@ -232,11 +232,12 @@ function esPrimo(numero) {
     return false;
     }
     var i;
-  for (var i = 2; i < numero; i++); {
-    if (numero % i === 0) 
+  for (var i = 2; i < numero; i++) {
+    if (numero % i === 0) {
     return false ; 
     }
-  return true;
+ }
+    return true;
 }
 
 
