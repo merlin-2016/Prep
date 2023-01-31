@@ -246,7 +246,12 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Pueden usar un while o un bucle do ... while (Investigarlo si quieren hacerlo de la segunda forma)
   // Tu código:
-  
+  counter = 0;  
+     do {
+      numero += 5;
+      counter++
+      } while (counter < 8);
+    return numero;
 }
 
 
