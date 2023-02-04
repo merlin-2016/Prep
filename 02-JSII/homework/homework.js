@@ -3,7 +3,9 @@
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-
+  var array = ['Invierno', 'Otoño', 'Primavera']
+  array.push('Verano')
+      
 }
 
 function incrementarPorUno(array) {
