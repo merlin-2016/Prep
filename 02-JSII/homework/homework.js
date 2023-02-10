@@ -10,20 +10,19 @@ function incrementarPorUno(array) {
   // "array" debe ser una arreglo de números enteros
   // Aumenta cada número por 1 y devuelve el array
   // Tu código:
-  
-    for (var i = 0; i < array.length; index++) {
+     for (var i = 0; i < array.length; i++) {
      array[i] = array [i] + 1;
-     return array;
-
+     
     }
-      
+    return array;
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-
+ array.push(elemento)
+ return array;
 }
 
 function dePalabrasAFrase(palabras) {
@@ -32,7 +31,12 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-
+  var oracion = palabras[0];
+  for (var i = 1; i < palabras.length; i++) {
+    oracion = oracion + '' + palabras[i];
+    
+  }
+    return palabras; 
 }
 
 function arrayContiene(array, elemento) {
