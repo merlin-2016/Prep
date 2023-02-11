@@ -33,10 +33,10 @@ function dePalabrasAFrase(palabras) {
   // Tu código:
   var oracion = palabras[0];
   for (var i = 1; i < palabras.length; i++) {
-    oracion = oracion + '' + palabras[i];
+    oracion = oracion + ' ' + palabras[i];
     
   }
-    return palabras; 
+     return oracion;
 }
 
 function arrayContiene(array, elemento) {
