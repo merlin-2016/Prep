@@ -55,7 +55,12 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser un array de enteros
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-
+  var suma = 0;
+  for (var i = 0; i < resultadosTest.length; i++) {
+    suma = suma + resultadosTest[i];
+  }
+  return suma / resultadosTest.length;
+  
 }
 
 function numeroMasGrande(numeros) {
