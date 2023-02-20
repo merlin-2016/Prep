@@ -97,8 +97,19 @@ if(arguments.length === 0) {
 function cuentoElementos(arreglo){
   // Realiza una función que retorne la cantidad de los elementos del arreglo que sean mayores a 18.
   // Tu código:
+var resultArreglo = [];
+for (var i = 0; i < arreglo.length; i++) {
+    if (arreglo[i] > 18) {
+    resultArreglo.push(arreglo[i]);
 
 }
+
+}
+  return resultArreglo;
+
+}
+
+
 
 function todosIguales(arreglo) {
   // Escriba la función todosIguales, si todos los elementos de un arreglo son iguales
