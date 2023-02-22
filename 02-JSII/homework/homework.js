@@ -85,9 +85,7 @@ function multiplicarArgumentos() {
 if(arguments.length === 0) {
   return 0; 
 }
-
-
-  var multiplicar = 1;
+ var multiplicar = 1;
     for (var i = 0; i < arguments.length; i++) {
       multiplicar = multiplicar * arguments[i];
     }
@@ -97,14 +95,13 @@ if(arguments.length === 0) {
 function cuentoElementos(arreglo){
   // Realiza una función que retorne la cantidad de los elementos del arreglo que sean mayores a 18.
   // Tu código:
-var resultArreglo = [];
-for (var i = 0; i < arreglo.length; i++) {
+var resultArreglo = 0;
+  for (var i = 0; i < arreglo.length; i++) {
     if (arreglo[i] > 18) {
-    resultArreglo.push(arreglo[i]);
+        resultArreglo ++;
+    }
 
-}
-
-}
+  }
   return resultArreglo;
 
 }
@@ -115,8 +112,16 @@ function todosIguales(arreglo) {
   // Escriba la función todosIguales, si todos los elementos de un arreglo son iguales
   // retornar true, caso contrario retornar false.
   // Tu código:
-  
-} 
+  var elementos = arreglo[0];
+   for (var i = 0; i < arreglo.length; i++) {
+        if (arreglo[i] !== elementos){
+      return false;
+      }
+     }
+     return true
+   }
+      
+
 
 function mesesDelAño(array) {
   // Dado un array que contiene algunos meses del año desordenados, recorrer el array buscando los meses de 
