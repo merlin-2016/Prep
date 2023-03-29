@@ -129,20 +129,24 @@ function mesesDelAño(array) {
   // Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
   var algunosMeses = []
+  var array1
   
-    for (let i = 0; i < array.length; i++) {
-      if( array[i] == "Enero" && array[i] == "Marzo" && array[i] == "Noviembre"){
-        array1 = ("Enero", "Marzo", "Noviembre");
-      return algunosMeses;
+    for (var i = 0; i < array.length; i++) {
+      if( array[i] === 'Enero' && array[i] === 'Marzo' && array[i] === 'Noviembre'){
+        array1 = ('Enero', 'Marzo', 'Noviembre');
+      return array1;
+      
       }
-        else {
-      return "No se encontraron los meses pedidos";
-    }
+       if (algunosMeses !== array1) {
+        return 'No se encontraron los meses pedidos';
+        
+       }
       
-         
-      
+        
     }
+    
 }
+
 
 function breakStatement(numero) {
   // Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
