@@ -128,17 +128,17 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   // Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  var mesesEncontrados = [];
+  var mesesHallados = [];
   
   
     for (var i = 0; i < array.length; i++) {
-      if( array[i] == 'Enero' || array[i] == 'Marzo' || array[i] == 'Noviembre'){
-        mesesEncontrados.push(array[i]);
+      if( array[i] === 'Enero' || array[i] === 'Marzo' || array[i] === 'Noviembre'){
+        mesesHallados.push(array[i]);
       
       }
       }
-       if (mesesEncontrados.length === 3) {
-        return mesesEncontrados;
+       if (mesesHallados.length === 3) {
+        return mesesHallados;
         
        }else {
         return 'No se encontraron los meses pedidos'
@@ -147,8 +147,6 @@ function mesesDelAño(array) {
         
     }
     
-
-
 
 function breakStatement(numero) {
   // Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
@@ -159,7 +157,22 @@ function breakStatement(numero) {
   // Pista: usá el statement 'break'
   // Tu código:
 
+  numeroRecibido = [];
+
+  for (var i = 0; i < array.length; i++) {
+    array[i] = array[i] + 2 >= 10;
+    numeroRecibido.push[array[i]]
+    return numeroRecibido;
+    
+  }
+  if (numeroRecibido.lenght ===10) {
+    
+  } else {
+    return 'Se interrumpió la ejecución'
+  }
+
 }
+
 
 function continueStatement(numero) {
   // Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
