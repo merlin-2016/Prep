@@ -157,21 +157,25 @@ function breakStatement(numero) {
   // Pista: usá el statement 'break'
   // Tu código:
 
-  numeroRecibido = [];
+  var numeroRecibido = [];
+  var suma = numero;
 
-  for (var i = 0; i < array.length; i++) {
-    array[i] = array[i] + 2 >= 10;
-    numeroRecibido.push[array[i]]
-    return numeroRecibido;
-    
+  for (var i = 0; i <= 10; i++) {
+    suma += 2;
+     if (suma === i) {
+      return 'Se interrumpió la ejecución';
+      break;
+    }
+    numeroRecibido.push(suma);
   }
-  if (numeroRecibido.lenght ===10) {
-    
-  } else {
-    return 'Se interrumpió la ejecución'
-  }
-
+  return suma;
 }
+
+   
+   
+
+    
+
 
 
 function continueStatement(numero) {
