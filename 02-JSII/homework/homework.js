@@ -160,13 +160,14 @@ function breakStatement(numero) {
   var numeroRecibido = [];
   var suma = numero;
 
-  for (var i = 0; i <= 10; i++) {
+  for (var i = 0; i < numero.length; i++) {
     suma += 2;
+    numeroRecibido.push(suma);
      if (suma === i) {
       return 'Se interrumpió la ejecución';
       break;
     }
-    numeroRecibido.push(suma);
+    
   }
   return suma;
 }
